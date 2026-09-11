@@ -1,0 +1,43 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "NEON REVERIE",
+    "description": "Remember. Stay Close. Escape the Loop.",
+    "favicon": "favicon_asset"
+  },
+  "owner": "",
+  "contact": {
+    "name": "NEON REVERIE",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": ["game", "multiplayer", "social", "maze", "mobile"],
+  "scene": {
+    "parcels": ["0,0"],
+    "base": "0,0"
+  },
+  "worldConfiguration": {
+    "name": "sidekick.dcl.eth"
+  },
+  "spawnPoints": [
+    {
+      "name": "lobby",
+      "default": true,
+      "position": {
+        "x": [2, 5],
+        "y": [0, 0],
+        "z": [2, 5]
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  }
+}

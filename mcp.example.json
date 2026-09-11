@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "explorer": {
+      "type": "http",
+      "url": "http://127.0.0.1:8123/unity-explorer-mcp"
+    }
+  }
+}
