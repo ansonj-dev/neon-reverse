@@ -119,28 +119,6 @@ The MCP Explorer workflow lets an AI coding tool inspect the running scene, inte
 
 AWS is **not required to host the Decentraland World**. The World is published through Decentraland. AWS may be added later for external persistence, analytics, matchmaking or an authoritative backend if testing proves the extra infrastructure is useful.
 
-## Buildathon checklist
-
-Before submission, verify all of the following on a real phone:
-
-- [ ] World is deployed and publicly reachable.
-- [ ] World remains accessible during judging.
-- [ ] A visitor can enter without a scheduled host.
-- [ ] Two real players can see and affect shared progression.
-- [ ] Touch interaction works.
-- [ ] HUD remains readable on a small screen.
-- [ ] No mechanic requires a keyboard or precision mouse.
-- [ ] Scene loads without missing required assets.
-- [ ] Build has no TypeScript errors.
-- [ ] Mobile FPS and asset/entity counts are acceptable.
-- [ ] Public GitHub repository contains source and license.
-- [ ] No secrets are committed.
-- [ ] README explains the experience and controls.
-- [ ] DoraHacks submission includes the World, GitHub and project description.
-
-## Master specification
-
-`NEON_REVERIE_COMPLETE_BUILD.md` is the full product/build specification and remains the source of truth for the intended experience.
 
 ## License
 
